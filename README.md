@@ -2,6 +2,8 @@
 
 A mobile-first UI library for web assembly. The goal is to support both web and native mobile with a standard set of components similar to React Native and other hybrid UI technology.
 
+This project uses the [`view!` macro](https://github.com/richardanaya/view)
+
 ## Hello World
 ```toml
 [dependencies]
