@@ -1,6 +1,6 @@
 # 威 wui
 
-A mobile-first UI library for web assembly. The goal is to support both web and native mobile.
+A mobile-first UI library for web assembly. The goal is to support both web and native mobile with a standard set of components similar to React Native and other hybrid UI technology.
 
 ## Hello World
 ```toml
