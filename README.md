@@ -21,7 +21,7 @@ pub fn main() -> () {
 ```
 
 ### Web
-```
+```html
 <script src="https://cdn.jsdelivr.net/gh/richardanaya/js_ffi/js_ffi.js"></script>
 <script>js_ffi.run("helloworld.wasm");</script>
 ```
