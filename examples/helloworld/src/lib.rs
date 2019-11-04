@@ -2,12 +2,11 @@ use wui::*;
 
 #[no_mangle]
 pub fn main() -> () {
-    render();
-}
-
-fn render(){
-    let wui = globals::get::<Wui>().lock();
+    let mut wui = globals::get::<Wui>().lock();
+    wui.initialize();
     wui.render(view!{
-        Text("Hello World!")
+        App {
+            Text("Hello World!")
+        }
     });
 }
