@@ -1,7 +1,8 @@
 # 威 wui
 
-A mobile-first UI library for web assembly.
+A mobile-first UI library for web assembly. The goal is to support both web and native mobile.
 
+## Hello World
 ```toml
 [dependencies]
 wui = "0.0.1"
@@ -17,6 +18,12 @@ pub fn main() -> () {
         Text("Hello World!")
     });
 }
+```
+
+### Web
+```
+<script src="https://cdn.jsdelivr.net/gh/richardanaya/js_ffi/js_ffi.js"></script>
+<script>js_ffi.run("helloworld.wasm");</script>
 ```
 
 # License
